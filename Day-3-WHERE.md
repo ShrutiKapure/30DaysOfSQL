@@ -26,11 +26,13 @@ LIKE	    Search for a pattern
 IN	      To specify multiple possible values for a column
 
 eg: To fetch Name and Age of students with Roll_no less than 10
-'''sh
+
+``` sh
 SELECT Name, Age, Roll_no
 FROM Student
 WHERE Roll_no < 10;
-'''
+
+```
 BETWEEN Operator
 
 The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates.
