@@ -3,10 +3,11 @@
 -**CREATE DATABASE**
 
 The CREATE DATABASE statement is used to create a new SQL database.
+
 **Syntax:**
 ` CREATE DATABASE database name; `
 
-eg: CREATE DATABASE shrutiDb;
+eg: `CREATE DATABASE shrutiDb;`
 
 -**CREATE TABLE**
 
