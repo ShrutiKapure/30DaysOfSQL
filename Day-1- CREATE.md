@@ -24,9 +24,12 @@ column3 data_type(size),
 );
 ``` 
 table_name: name of the table.
+
 column1: name of the first column.
+
 data_type: Type of data we want to store in the particular column. 
             For example,int for integer data.
+            
 size: Size of the data we can store in a particular column.
 
 eg:
