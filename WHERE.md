@@ -17,7 +17,7 @@ WHERE Age=10; `
 
 List of operators that can be used with where clause:
 
->	        Greater Than
+ ` >  `	        ` Greater Than  `
 >=	      Greater than Equal to
 <	        Less Than
 <=	      Less than  Equal to
@@ -51,7 +51,7 @@ BETWEEN value1 AND value2;
 eg:
 ` SELECT * FROM Student WHERE Roll_no BETWEEN 1 AND 10; `
 
-LIKE Operator
+**LIKE Operator**
 
 The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
 
@@ -63,12 +63,13 @@ There are two sign often used in conjunction with the LIKE operator:
 (You can also combine any number of conditions using AND or OR operators.)
 
 SYNTAX:
-' ' 'sh
+``` sh
 SELECT column1,column2 
 FROM table_name 
 WHERE column_name 
 LIKE pattern;
-' ' '
+``` 
+
 eg: To fetch records of students where NAME starts with letter S.
 
 ` SELECT * FROM Student WHERE NAME LIKE 'S%'; (starting with S) `
