@@ -38,6 +38,7 @@ WHERE Roll_no < 10;
 **BETWEEN Operator**
 
 The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates.
+
 The BETWEEN operator is includes begin and end values.
 
 SYNTAX:
@@ -69,6 +70,7 @@ WHERE column_name
 LIKE pattern;
 ' ' '
 eg: To fetch records of students where NAME starts with letter S.
+
 ` SELECT * FROM Student WHERE NAME LIKE 'S%'; (starting with S) `
 
 ` SELECT * FROM Student WHERE NAME LIKE '%AM%'; (AM in any position eg:RAM, RAMESH) `
@@ -90,7 +92,7 @@ SELECT column1,column2
 FROM table_name 
 WHERE column_name 
 IN (value1,value2,..);
-``` sh
+``` 
 
 Eg: To fetch Name and Roll_no of students where Age is 10 or 12.
 
