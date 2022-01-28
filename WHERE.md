@@ -86,6 +86,7 @@ eg: To fetch records of students where NAME starts with letter S.
 **IN Operator**
 
 The IN operator allows you to specify multiple values in a WHERE clause.
+
 ``` sh
 Syntax:
 SELECT column1,column2 
