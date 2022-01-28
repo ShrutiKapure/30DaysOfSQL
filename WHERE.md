@@ -1,4 +1,4 @@
-***WHERE Clause***
+**WHERE Clause**
 
 The WHERE clause is used to filter records.
 It is used to extract only those records that fulfill a specified condition.
@@ -60,12 +60,12 @@ There are two sign often used in conjunction with the LIKE operator:
 (You can also combine any number of conditions using AND or OR operators.)
 
 SYNTAX:
-'''sh
+' ' 'sh
 SELECT column1,column2 
 FROM table_name 
 WHERE column_name 
 LIKE pattern;
-'''
+' ' '
 eg: To fetch records of students where NAME starts with letter S.
 ` SELECT * FROM Student WHERE NAME LIKE 'S%'; (starting with S) `
 ` SELECT * FROM Student WHERE NAME LIKE '%AM%'; (AM in any position eg:RAM, RAMESH) `
