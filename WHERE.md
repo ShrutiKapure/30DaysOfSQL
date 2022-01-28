@@ -18,14 +18,14 @@ WHERE Age=10; `
 List of operators that can be used with where clause:
 
  ` >  `	        ` Greater Than  `
->=	      Greater than Equal to
-<	        Less Than
-<=	      Less than  Equal to
-= 	      Equal to
-<>	      Not Equal to
-BETWEEN	  In an inclusive Range
-LIKE	    Search for a pattern
-IN	      To specify multiple possible values for a column 
+ ` >=	 `      ` Greater than Equal to  `
+ ` <  `	        ` Less Than  `
+ ` <=	 `      ` Less than  Equal to  `
+ ` =  ` 	      ` Equal to  `
+ ` <> `     ` Not Equal to `
+ ` BETWEEN  `	   ` In an inclusive Range  `
+ ` LIKE  `	     ` Search for a pattern  `
+ ` IN  `      ` To specify multiple possible values for a column  `
 
 eg: To fetch Name and Age of students with Roll_no less than 10
 
