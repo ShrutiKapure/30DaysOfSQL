@@ -6,8 +6,8 @@ SYNTAX:
 ``` sh
 DELETE FROM table_name
 WHERE condition;
-Deleting a single record
 ``` 
+-Deleting a single record
 
 Eg: Deleting the row with name Priti.
 
@@ -23,6 +23,6 @@ WHERE Age  =  10; `
 
 -Delete all the records
 
-Eg: ` DELETE * FROM Student; `
+` DELETE * FROM Student; `
 
 
