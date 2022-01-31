@@ -8,6 +8,7 @@ SYNTAX:
 ``` sh
 SELECT * FROM table_name 
 WHERE condition1 and condition2 and…condition; 
+```
 
  Eg: ` SELECT * FROM Student
 WHERE Age = 10 AND Address = ‘Mumbai’; `
