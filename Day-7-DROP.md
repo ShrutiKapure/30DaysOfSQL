@@ -12,6 +12,6 @@ Eg:
 
 table_name: Name of the table to be deleted.
 
-` DROP DATABASE database_name; 
-`
+` DROP DATABASE database_name; `
+
 database_name: Name of the database to be deleted.
