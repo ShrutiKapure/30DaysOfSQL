@@ -27,6 +27,7 @@ SET Name = 'Sharath' WHERE Age = 21; `
 
 **Updating multiple columns**
 
+eg:
 ` UPDATE Student 
 SET Name = 'Sharath', Address = 'Malad' WHERE roll_no = 4; `
 
@@ -34,5 +35,6 @@ SET Name = 'Sharath', Address = 'Malad' WHERE roll_no = 4; `
 
 If we omit the WHERE clause from the update query then all of the rows will get updated. 
 
+eg:
 ` UPDATE Student 
 SET Name = ‘Sharath’; `
