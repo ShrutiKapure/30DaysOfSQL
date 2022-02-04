@@ -1,4 +1,5 @@
 **UPDATE**
+
 The UPDATE statement is used to modify the existing records in a table.
 The UPDATE statement in SQL is used to update the data of an existing table in database.
 We can update single columns as well as multiple columns using UPDATE statement as per our requirement.
@@ -22,17 +23,16 @@ condition: condition to select the rows for which the
 
 eg:
 ` UPDATE Student 
-
 SET Name = 'Sharath' WHERE Age = 21; `
 
 **Updating multiple columns**
-` UPDATE Student 
 
+` UPDATE Student 
 SET Name = 'Sharath', Address = 'Malad' WHERE roll_no = 4; `
 
 **Updating whole table**
+
 If we omit the WHERE clause from the update query then all of the rows will get updated. 
 
 ` UPDATE Student 
-
 SET Name = ‘Sharath’; `
