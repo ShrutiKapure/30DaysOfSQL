@@ -12,9 +12,7 @@ WHERE column_name BETWEEN value1 AND value2;
 Eg:
  `
 SELECT fname, lname
-
 FROM student
-
 WHERE marks BETWEEN 40 AND 80;  `
 
 Eg:
