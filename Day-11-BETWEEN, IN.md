@@ -24,7 +24,7 @@ ORDER BY Name; `
 
 **Using BETWEEN with date values**
 
-eg:
+Eg:
  `
 SELECT Fname, Lname
 FROM student
