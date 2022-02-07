@@ -18,11 +18,8 @@ WHERE marks BETWEEN 40 AND 80;  `
 Eg:
  `
 Print all columns between Aman and Emma
-
 SELECT * FROM student
-
 WHERE Name BETWEEN 'Aman’ AND 'Emma'
-
 ORDER BY Name; `
 
 **Using BETWEEN with date values**
@@ -30,11 +27,8 @@ ORDER BY Name; `
 eg:
  `
 SELECT Fname, Lname
-
 FROM student
-
 where DateOfBirth
-
 BETWEEN '2001-04-20' AND '2001-11-21'; `
 
 **Using NOT operator with BETWEEN**
@@ -63,16 +57,12 @@ WHERE column_name IN (list_of_values);
 Eg:
  ` Find the Fname, Lname of the students who have marks equal to 40, 65, or 80  `
 
- ` SELECT Fname, Lname
-
+` SELECT Fname, Lname
 FROM student
-
 WHERE marks IN (40, 65, 80); `
 
 Eg: ` Find the Fname, Lname of all the student who have marks not equal to 80 or 90. `
 
- ` SELECT Fname, Lname
-
+` SELECT Fname, Lname
 FROM student
-
 WHERE marks NOT IN (80, 90); `
