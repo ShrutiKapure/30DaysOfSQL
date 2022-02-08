@@ -16,14 +16,10 @@ END;
 
 Eg:
 ` SELECT FacultyID, Name, Department,
-
   CASE Gender
-  
   WHEN 'M' THEN 'Male'
-  
   WHEN 'F' THEN 'Female'
-  
-END
+  END
 
 FROM Faculty  `
 
@@ -39,21 +35,12 @@ END CASE
 
 Eg:
 ` CASE department_name
-
- WHEN 'CS'
- 
-  THEN UPDATE Faculty SET
-  
-  department='Computer Science';
-  
- WHEN 'EC'
- 
-  THEN UPDATE Faculty SET
-  
+  WHEN 'CS'
+ THEN UPDATE Faculty SET
+   department='Computer Science';
+  WHEN 'EC'
+ THEN UPDATE Faculty SET
   department='Electronics and Communication';
-  
- ELSE UPDATE Faculty SET
- 
+  ELSE UPDATE Faculty SET
  department='Humanities and Social Sciences';
- 
-END CASE  `
+ END CASE  `
