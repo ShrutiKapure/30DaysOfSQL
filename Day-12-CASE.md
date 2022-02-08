@@ -20,8 +20,7 @@ Eg:
   WHEN 'M' THEN 'Male'
   WHEN 'F' THEN 'Female'
   END
-
-FROM Faculty  `
+ FROM Faculty  `
 
 Syntax:
 ``` sh
