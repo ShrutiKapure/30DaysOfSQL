@@ -15,17 +15,20 @@ WHERE EXISTS
 Eg:
  1)	Using EXISTS condition with SELECT statement
  
- ` To fetch the first and last name of the customers who placed atleast one order.
-SELECT fname, lname 
-FROM Customers 
-WHERE EXISTS (SELECT * 
-              FROM Orders 
-              WHERE Customers.customer_id = Orders.c_id);  `
+To fetch the first and last name of the customers who placed atleast one order.
+
+ ` SELECT fname, lname  `
+ 
+ ` FROM Customers  `
+ 
+ ` WHERE EXISTS (SELECT * FROM Orders  `
+ 
+ ` WHERE Customers.customer_id = Orders.c_id);  `
               
 
  2)	Using NOT with EXISTS
 
- ` Fetch last and first name of the customers who has not placed any order.
+ Fetch last and first name of the customers who has not placed any order.
  
  `SELECT lname, fname `
  
@@ -33,29 +36,37 @@ WHERE EXISTS (SELECT *
  
  `WHERE NOT EXISTS (SELECT * FROM Orders  `
  
-                 `  WHERE Customers.customer_id = Orders.c_id);  `
+ `WHERE Customers.customer_id = Orders.c_id);  `
                   
 
 3)	Using EXISTS condition with DELETE statement
 
- ` Delete the record of all the customer from Order Table whose last name is ‘Patil’.
-DELETE 
-FROM Orders
-WHERE EXISTS (SELECT *
-              FROM customers
-              WHERE Customers.customer_id = Orders.cid
-              AND Customers.lname = 'Patil');
-SELECT * FROM Orders;  `
+ Delete the record of all the customer from Order Table whose last name is ‘Patil’.
+ 
+ ` DELETE  `
+ 
+ `FROM Orders `
+ ` WHERE EXISTS (SELECT *  FROM customers `
+ 
+ ` WHERE Customers.customer_id = Orders.cid `
+ 
+ ` AND Customers.lname = 'Patil');  `
+ 
+ ` SELECT * FROM Orders;  `
 
 
 
 4) Using EXISTS condition with UPDATE statement
  
- ` Update the lname as ‘Kumari’ of customer in Customer Table whose customer_id is 401.
-UPDATE Customers
-SET lname = 'Kumari'
-WHERE EXISTS (SELECT *
-              FROM Customers
-              WHERE customer_id = 401);
-SELECT * FROM Customers; `
+Update the lname as ‘Kumari’ of customer in Customer Table whose customer_id is 401.
+
+ ` UPDATE Customers `
+ 
+ ` SET lname = 'Kumari'  `
+ 
+ ` WHERE EXISTS (SELECT * FROM Customers  `
+ 
+ ` WHERE customer_id = 401);  `
+ 
+ ` SELECT * FROM Customers; `
 
