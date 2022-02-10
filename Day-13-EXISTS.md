@@ -28,8 +28,11 @@ WHERE EXISTS (SELECT *
  ` Fetch last and first name of the customers who has not placed any order.
  
  `SELECT lname, fname `
+ 
  `FROM Customer `
+ 
  `WHERE NOT EXISTS (SELECT * FROM Orders  `
+ 
                  `  WHERE Customers.customer_id = Orders.c_id);  `
                   
 
@@ -47,7 +50,7 @@ SELECT * FROM Orders;  `
 
 
 4) Using EXISTS condition with UPDATE statement
-5) 
+ 
  ` Update the lname as ‘Kumari’ of customer in Customer Table whose customer_id is 401.
 UPDATE Customers
 SET lname = 'Kumari'
