@@ -4,7 +4,7 @@ A Database Management System (DBMS) is a program that controls creation, mainten
 
 DBMS can be termed as File Manager that manages data in a database rather than saving it in file systems.
 
-**. What is RDBMS?**
+**2. What is RDBMS?**
 
 RDBMS stands for Relational Database Management System. 
 
