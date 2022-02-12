@@ -1,4 +1,4 @@
-#DISTINCT Clause
+# DISTINCT Clause
 
 The SELECT DISTINCT statement is used to return only distinct (different) values.
 
