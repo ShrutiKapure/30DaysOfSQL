@@ -72,8 +72,6 @@ In the query, GROUP BY clause is placed before ORDER BY clause if used any.
 
 Syntax:
 
-Eg:
-
 ``` sh
 SELECT column1, function_name(column2)
 FROM table_name
@@ -121,7 +119,7 @@ This means to place all the rows with same values of both the columns column1 an
 SELECT SUBJECT, YEAR, Count(*)
 FROM Student
 GROUP BY SUBJECT, YEAR;
-``` sh
+``` 
 
 -**HAVING Clause**
 
