@@ -1,6 +1,6 @@
 # Join 
 
-# CARTESIAN JOIN:
+**CARTESIAN JOIN**
 
 The CARTESIAN JOIN is also known as CROSS JOIN. 
 In a CARTESIAN JOIN there is a join for each row of one table to every row of another table.
@@ -30,7 +30,7 @@ FROM Student
 CROSS JOIN StudentCourse;
 ```
 
-# SELF JOIN
+**SELF JOIN**
 
 As the name signifies, in SELF JOIN a table is joined to itself.
 That is, each row of the table is joined with itself and all other rows depending on some conditions. 
@@ -56,7 +56,7 @@ FROM Student a, Student b
 WHERE a.ROLL_NO < b.ROLL_NO;
 ``` 
 
-# INNER JOIN: 
+**INNER JOIN**
 
 The INNER JOIN keyword selects all rows from both the tables as long as the condition satisfies.
 This keyword will create the result-set by combining all rows from both the tables where the condition satisfies i.e value of the common field will be same.
@@ -87,7 +87,7 @@ INNER JOIN StudentCourse
 ON Student.ROLL_NO = StudentCourse.ROLL_NO;
 ``` 
 
-# LEFT JOIN: 
+**LEFT JOIN**
 
 This join returns all the rows of the table on the left side of the join and matching rows for the table on the right side of join.
 The rows for which there is no matching row on right side, the result-set will contain null. LEFT JOIN is also known as LEFT OUTER JOIN.
@@ -117,7 +117,7 @@ LEFT JOIN StudentCourse
 ON StudentCourse.ROLL_NO = Student.ROLL_NO;
 ``` 
 
-# RIGHT JOIN:
+**RIGHT JOIN**
 
 RIGHT JOIN is similar to LEFT JOIN. This join returns all the rows of the table on the right side of 
 the join and matching rows for the table on the left side of join. The rows for which there is no matching row on left side, the result-set will contain null.
@@ -148,7 +148,7 @@ RIGHT JOIN StudentCourse
 ON StudentCourse.ROLL_NO = Student.ROLL_NO;
 ``` 
 
-# FULL JOIN:
+**FULL JOIN**
 
 FULL JOIN creates the result-set by combining result of both LEFT JOIN and RIGHT JOIN. 
 The result-set will contain all the rows from both the tables. The rows for which there is no matching, the result-set will contain NULL values.
